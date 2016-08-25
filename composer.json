@@ -1,0 +1,25 @@
+{
+    "name": "rpk/plugin-manager",
+    "type": "library",
+    "description": "a simple observer pattern implementation",
+    "keywords": ["php","observer", "events"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Repkit",
+            "email": "repkit@gmail.com",
+            "homepage": "http://7qbs.com",
+            "role": "Developer"
+        }
+    ],
+     "autoload": {
+        "psr-4": {"RpkPluginManager\\": "src/RpkPluginManager"}
+    },
+    "require": {
+        "php": ">=5.3.23",
+        "container-interop/container-interop": "^1.1.0"
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "~4.0"
+    }
+}
