@@ -1,5 +1,6 @@
 # PluginManager
-a simple observer pattern implementation inspired from zend-eventmanager. For complex workflows use zend-eventmanager
+* a simple observer pattern implementation inspired from zend-eventmanager. For complex workflows use zend-eventmanager
+* can be easily used with zend-expressive (http://zendframework.github.io/zend-expressive) in combinations with pipes (ex: changing/add data before returning HtmlResponse)
 
 *PluginResponseCollection* is a copy of zend-eventmanager/ResponseCollection (http://github.com/zendframework/zend-eventmanager)
 
