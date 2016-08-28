@@ -21,7 +21,7 @@ return [
    'plugin-manager' => [
         'page::edit-render.pre' => [
             new \RpkPluginManager\Plugin(\Coco\ChangeHome::class),
-            new \RpkPluginManager\Plugin(function($params){
+            new \RpkPluginManager\Plugin(function($params, $target){
                 $params['data']['some_new_prop'] = 'some_new_value';
             }, 10, false, \RpkPluginManager\Plugin::TYPE_CALLABLE),
         ]    

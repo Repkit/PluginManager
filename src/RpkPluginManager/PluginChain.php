@@ -126,7 +126,7 @@ class PluginChain
                     
                 }
                 
-                $response = $plugin($Params);
+                $response = $plugin($Params, $EventKey);
                 $responses->push($response);
                 
                 // if listener request stop propagation then exit loops
